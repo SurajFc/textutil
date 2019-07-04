@@ -71,8 +71,6 @@ def analyze(request):
         return render(request, 'analyze.html', params)
 
 
-def contactus(request):
-    return render(request, "Contact Us.html")
 
 def about(request):
     return render(request, "about.html")
